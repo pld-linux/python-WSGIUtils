@@ -6,7 +6,7 @@ Group:		Development/Languages/Python
 License:	X11/MIT
 Source0:	http://cheeseshop.python.org/packages/source/W/WSGIUtils/WSGIUtils-%{version}.tar.gz
 # Source0-md5:	80656ce771bb33eb8ad502c3b674b1fc
-URL:		http://kid.lesscode.org/
+URL:		http://www.owlfish.com/software/wsgiutils/
 BuildRequires:	python-devel
 %pyrequires_eq  python-modules
 BuildArch:	noarch
