@@ -1,4 +1,5 @@
-Summary:	Collection of libraries for use in a WSGI environnmen
+Summary:	Collection of libraries for use in a WSGI environment
+Summary(pl):	Zbiór bibliotek do u¿ywania w ¶rodowisku WSGI
 Name:		python-WSGIUtils
 Version:	0.7
 Release:	1
@@ -8,18 +9,30 @@ Source0:	http://cheeseshop.python.org/packages/source/W/WSGIUtils/WSGIUtils-%{ve
 # Source0-md5:	80656ce771bb33eb8ad502c3b674b1fc
 URL:		http://www.owlfish.com/software/wsgiutils/
 BuildRequires:	python-devel
-%pyrequires_eq  python-modules
+%pyrequires_eq	python-modules
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 WSGIUtils is a package of standalone utility libraries that ease the
-development of simple WSGI programs. The package is divided into two main
-components which can be used individualy or in combination:
+development of simple WSGI programs. The package is divided into two
+main components which can be used individualy or in combination:
 
-- wsgiServer is a multi-threaded WSGI web server based on SimpleHTTPServer
-- wsgiAdaptor is a simple WSGI application that provides basic authentication,
-  signed cookies and persistent sessions
+- wsgiServer is a multi-threaded WSGI web server based on
+  SimpleHTTPServer
+- wsgiAdaptor is a simple WSGI application that provides basic
+  authentication, signed cookies and persistent sessions
+
+%description -l pl
+WSGIUtils to pakiet samodzielnych bibliotek narzêdziowych
+u³atwiaj±cych tworzenie prostych programów WSGI. Pakiet jest
+podzielony na dwa g³ówne sk³adniki, których mo¿na u¿ywaæ oddzielnie
+lub ³±cznie:
+
+- wsgiServer to wielow±tkowy serwer WWW WSGI oparty na
+  SimpleHTTPServer
+- wsgiAdaptor to prosta aplikacja WSGI udostêpniaj±ca podstawowe
+  uwierzytelnianie, podpisane ciasteczka i trwa³e sesje
 
 %prep
 %setup -q -n WSGIUtils-%{version}
