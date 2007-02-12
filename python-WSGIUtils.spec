@@ -1,5 +1,5 @@
 Summary:	Collection of libraries for use in a WSGI environment
-Summary(pl):	Zbiór bibliotek do u¿ywania w ¶rodowisku WSGI
+Summary(pl.UTF-8):   ZbiÃ³r bibliotek do uÅ¼ywania w Å›rodowisku WSGI
 Name:		python-WSGIUtils
 Version:	0.7
 Release:	1
@@ -23,16 +23,16 @@ main components which can be used individualy or in combination:
 - wsgiAdaptor is a simple WSGI application that provides basic
   authentication, signed cookies and persistent sessions
 
-%description -l pl
-WSGIUtils to pakiet samodzielnych bibliotek narzêdziowych
-u³atwiaj±cych tworzenie prostych programów WSGI. Pakiet jest
-podzielony na dwa g³ówne sk³adniki, których mo¿na u¿ywaæ oddzielnie
-lub ³±cznie:
+%description -l pl.UTF-8
+WSGIUtils to pakiet samodzielnych bibliotek narzÄ™dziowych
+uÅ‚atwiajÄ…cych tworzenie prostych programÃ³w WSGI. Pakiet jest
+podzielony na dwa gÅ‚Ã³wne skÅ‚adniki, ktÃ³rych moÅ¼na uÅ¼ywaÄ‡ oddzielnie
+lub Å‚Ä…cznie:
 
-- wsgiServer to wielow±tkowy serwer WWW WSGI oparty na
+- wsgiServer to wielowÄ…tkowy serwer WWW WSGI oparty na
   SimpleHTTPServer
-- wsgiAdaptor to prosta aplikacja WSGI udostêpniaj±ca podstawowe
-  uwierzytelnianie, podpisane ciasteczka i trwa³e sesje
+- wsgiAdaptor to prosta aplikacja WSGI udostÄ™pniajÄ…ca podstawowe
+  uwierzytelnianie, podpisane ciasteczka i trwaÅ‚e sesje
 
 %prep
 %setup -q -n WSGIUtils-%{version}
