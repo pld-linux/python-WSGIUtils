@@ -1,5 +1,5 @@
 Summary:	Collection of libraries for use in a WSGI environment
-Summary(pl.UTF-8):   Zbiór bibliotek do używania w środowisku WSGI
+Summary(pl.UTF-8):	Zbiór bibliotek do używania w środowisku WSGI
 Name:		python-WSGIUtils
 Version:	0.7
 Release:	1
