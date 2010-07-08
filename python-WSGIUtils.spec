@@ -2,7 +2,7 @@ Summary:	Collection of libraries for use in a WSGI environment
 Summary(pl.UTF-8):	Zbiór bibliotek do używania w środowisku WSGI
 Name:		python-WSGIUtils
 Version:	0.7
-Release:	3
+Release:	4
 Group:		Development/Languages/Python
 License:	X11/MIT
 Source0:	http://cheeseshop.python.org/packages/source/W/WSGIUtils/WSGIUtils-%{version}.tar.gz
